@@ -1,0 +1,126 @@
+.alert-dismissable .close, .alert-dismissible .close {
+    top: -1px;
+    right: -10px;
+}
+
+/*********************Custom PC DESIGN******************************************/
+.buttons .right {
+    float: right;
+    text-align: right;
+}
+
+.ware{
+    border-collapse: collapse;
+    margin-top: 12px;
+    width: 100%;
+}
+
+.ware td, .ware th { 
+    border: 1px solid #A0CDEE;
+    padding: 2px 4px;
+    vertical-align: middle;
+}
+
+.head td { 
+    background-color: #CCE3EF;
+    font-weight: 700;
+    padding: 2px;
+    text-align: center;
+}
+
+.ware .even { 
+    background-color: #EAF1FB;
+}
+
+.ware input[type='text'], .ware textarea, .ware select { 
+    width: 99%;
+}
+
+.ware div.options{
+    margin:10px 15px 10px 0;
+    padding:10px;
+    background: #CCE3EF;
+}
+.ware div.options a.a_hide{
+    float:right;
+    text-decoration:none;
+    border:#ddd 1px solid;
+    background:#fff;
+    display:block;
+    width:15px;
+    height:15px;
+    text-align:center;
+    font-size:12px;
+    font-weight:bold;
+    line-height:12px;
+    vertical-align:middle;
+    color:#555;
+}
+.ware div.options h2{
+    padding:10px 0 0 10px;
+}
+
+div.option3{
+    margin-top:10px;
+    border: #ddd 1px solid;
+}
+
+.switcher {
+    display:block;
+    width:99%;
+    text-align:left;
+    cursor:pointer;
+    position:relative;
+}
+	
+.switcher a {
+    text-decoration: none;
+    display: block;
+    background:#fff;
+}
+	
+.switcher .selected {
+
+}
+
+.switcher .selected a {
+    border: 1px solid #CCCCCC;
+    background:#fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAh0lEQVQ4T93TMQrCUAzG8V9x8QziiYSuXdzFC7h4AcELOPQAdXYovZCHEATlgQV5GFTe1ozJlz/kS1IpjKqw3wQBVyy++JI0y1GTe7DCBbMAckeNIQKk/BanALBB+16LtnDELoMcsM/BESDlz2heDR3WePwKSLo5eoxz3z6NNcFD+vu3ij14Aqz/DxGbKB7CAAAAAElFTkSuQmCC) 99% center no-repeat;
+    color: #636665;
+    padding: 2px 0px 2px 5px;
+    width: 99%;
+}
+	
+.switcher .selected a:hover {
+    background: #F0F0F0 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAh0lEQVQ4T93TMQrCUAzG8V9x8QziiYSuXdzFC7h4AcELOPQAdXYovZCHEATlgQV5GFTe1ozJlz/kS1IpjKqw3wQBVyy++JI0y1GTe7DCBbMAckeNIQKk/BanALBB+16LtnDELoMcsM/BESDlz2heDR3WePwKSLo5eoxz3z6NNcFD+vu3ij14Aqz/DxGbKB7CAAAAAElFTkSuQmCC) 99% center no-repeat;
+}
+
+.switcher .option {	
+    position: absolute;
+    width:100%;
+    z-index: 3;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    background-color: #EEEEEE;
+    display: none; 
+    cursor:pointer;
+}
+       
+.switcher .option a {
+    color: #000;
+    padding: 3px 5px 3px 5px;
+}
+	
+.switcher .option a:hover {
+    background: #FFC;
+}
+
+.switcher img {
+    float:left; 
+    margin-right:5px;
+}   
+
+.switcher a.hasimg{
+    line-height:50px;
+}

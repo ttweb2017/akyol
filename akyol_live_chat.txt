@@ -1,0 +1,23 @@
+www.mylivechat.com
+
+username: info@ttweb.org
+password: ttWeb_2017
+
+
+Your Account ID (MyLiveChat ID) is
+94076570
+
+Copy and paste the code on every page of your website, immediately before the </body> tag:
+<script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=94076570"></script>
+
+
+web console:
+https://s2.mylivechat.com/webconsole/
+
+myliveChat ID : 94076570
+Agent Login   : admin
+Agent Password: 49071
+
+
+another plug in for live chat
+https://www.clickdesk.com/
