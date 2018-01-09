@@ -64,7 +64,7 @@ $_['entry_postcode']                 = 'Poçta indeksi';
 $_['entry_city']                     = 'Şäher';
 $_['entry_country']                  = 'Ýurt';
 $_['entry_zone']                     = 'Welaýat / etrap';
-$_['entry_newsletter']               = 'Meniň täzeliklere %s ýazlyşasym gelýär.';
+$_['entry_newsletter']               = 'Meniň %s täzeliklerine ýazlyşasym gelýär.';
 $_['entry_shipping']                 = 'Meniň ýuridiki adresim we eltip berme adresim meňzeş.';
 
 // Error

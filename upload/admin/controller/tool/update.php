@@ -95,9 +95,9 @@ class ControllerToolUpdate extends Controller {
                 if($local_model){
                     $quantity = $this->db->escape($line[1]);
                 
-                    $quantity_int = (int)strtok($quantity, 'P');
+                    //$quantity_int = (int)strtok($quantity, 'P');
                 
-                    $this->model_tool_update->updateQuantity($local_model['model'], $quantity_int);
+                    $this->model_tool_update->updateQuantity($local_model['model'], $quantity);
 					
                     $new_product = false;
                 }
@@ -115,7 +115,15 @@ class ControllerToolUpdate extends Controller {
             $json['total'] = round(($position / $size) * 100);
 
             if ($position && !feof($handle)) {
-                $json['next'] = str_replace('&amp;', '&', $this->url->link('tool/update/import', 'token=' . $this->session->data['token'] . '&import=' . $filename . '&position=' . $position, true));
+                $json['next'] = str_replace(
+												'&amp;', 
+												'&', 
+												$this->url->link(
+																	'tool/update/import', 
+																	'token=' . $this->session->data['token'] . '&import=' . $filename . '&position=' . $position, 
+																	true
+																)
+											);
 
                 fclose($handle);
             } else {

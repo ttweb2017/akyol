@@ -13,7 +13,7 @@ class ModelToolUpdate extends Model {
     public function updateQuantity($model, $quantity) {
         $query = "UPDATE `" . DB_PREFIX . "product` SET quantity = '$quantity' WHERE model = '$model'";
 
-        //$this->db->query($query);
+        $this->db->query($query);
 		$this->log->write($query);
     }
 	

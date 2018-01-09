@@ -644,3 +644,10 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 #filemanager .fa-folder.fa-5x {
 	font-size: 10.5em;
 }
+
+/****************************CUSTOM DESING*****************************/
+#admin-logo {
+	width: 10%;
+	margin-top: -3%;
+	margin-bottom: -12%;
+}

@@ -40,14 +40,23 @@
 <body class="<?php echo $class; ?>">
 <nav id="top">
   <div class="container">
-    <?php echo $currency; ?>
+	<div class="new-logo pull-left">
+	<ul class="list-inline">
+	<?php if ($logo) { ?>
+          <li><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a></li>
+          <?php } else { ?>
+          <li><h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1></li>
+    <?php } ?>
+	</ul>
+	</div>
+	<?php echo $currency; ?>
     <?php echo $language; ?>
     <div id="top-links" class="nav pull-right">
       <ul class="list-inline">
-        <li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
+		<li><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md"><?php echo $telephone; ?></span></li>
         <li class="dropdown"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span> <span class="caret"></span></a>
           <ul class="dropdown-menu dropdown-menu-right">
-            <?php if ($logged) { ?>
+		   <?php if ($logged) { ?>
             <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
             <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
             <li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
@@ -70,13 +79,13 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
-        <div id="logo">
+        <!--<div id="logo">
           <?php if ($logo) { ?>
           <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
           <?php } else { ?>
           <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
           <?php } ?>
-        </div>
+        </div> -->
       </div>
       <div class="col-sm-5"><?php echo $search; ?>
       </div>
@@ -123,7 +132,7 @@
         </script>
         <nav id="supermenu" class="imgmenu superbig">
             <a class="mobile-trigger"><?php echo $text_category; ?></a>
-            <ul class="exped">
+            <ul> <!--  class="exped" -->
                 <?php foreach ($categories as $category){ ?>
                     <li class="tlli mkids">
                         <?php if($category['children']) { ?>

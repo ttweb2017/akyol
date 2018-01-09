@@ -236,7 +236,7 @@ class ControllerExtensionPaymentIkgateway extends Controller
         if (!$this->log) {
             $this->log = new Log('ikgateway.log');
         }
-        $this->log->Write($type .': '. $message);
+        $this->log->Write($message);
     }
 
 }

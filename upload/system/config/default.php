@@ -19,12 +19,12 @@ $_['db_password']          = '';
 $_['db_database']          = '';
 $_['db_port']              = 3306;
 
-$_['new_db_type']              = 'mysqli'; // mpdo, mssql, mysql, mysqli or postgre
+/*$_['new_db_type']              = 'mysqli'; // mpdo, mssql, mysql, mysqli or postgre
 $_['new_db_hostname']          = 'localhost';
 $_['new_db_username']          = 'root';
 $_['new_db_password']          = '';
 $_['new_db_database']          = 'test_open_cart_db';
-$_['new_db_port']              = 3306;
+$_['new_db_port']              = 3306;*/
 
 // Mail
 $_['mail_protocol']        = 'mail'; // mail or smtp

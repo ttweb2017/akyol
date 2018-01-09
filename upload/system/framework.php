@@ -36,9 +36,6 @@ if ($config->get('db_autostart')) {
 	$registry->set('db', new DB($config->get('db_type'), $config->get('db_hostname'), $config->get('db_username'), $config->get('db_password'), $config->get('db_database'), $config->get('db_port')));
 }
 
-$newdb = new DB($config->get('new_db_type'), $config->get('new_db_hostname'), $config->get('new_db_username'), $config->get('new_db_password'), $config->get('new_db_database'), $config->get('new_db_port'));
-$registry->set('newdb', $newdb);
-
 // Session
 $session = new Session();
 

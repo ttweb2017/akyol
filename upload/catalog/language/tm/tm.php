@@ -1,6 +1,6 @@
 <?php
 // Locale
-$_['code']                  = 'en';
+$_['code']                  = 'tm';
 $_['direction']             = 'ltr';
 $_['date_format_short']     = 'd/m/Y';
 $_['date_format_long']      = 'l dS F Y';
@@ -11,64 +11,64 @@ $_['thousand_point']        = ',';
 
 // Text
 $_['text_home']             = '<i class="fa fa-home"></i>';
-$_['text_yes']              = 'Yes';
-$_['text_no']               = 'No';
-$_['text_none']             = ' --- None --- ';
-$_['text_select']           = ' --- Please Select --- ';
+$_['text_yes']              = 'Hawa';
+$_['text_no']               = 'Ýok';
+$_['text_none']             = ' --- Hiç biri --- ';
+$_['text_select']           = ' --- Saýlaň --- ';
 $_['text_all_zones']        = 'All Zones';
-$_['text_pagination']       = 'Showing %d to %d of %d (%d Pages)';
-$_['text_loading']          = 'Loading...';
-$_['text_no_results']       = 'No results!';
+$_['text_pagination']       = '%d bilen %d aralygy görkezilýär %d sanydan (%d Sahypa)';
+$_['text_loading']          = 'Ýüklenýär...';
+$_['text_no_results']       = 'Netije ýok!';
 
 // Buttons
-$_['button_address_add']    = 'Add Address';
-$_['button_back']           = 'Back';
-$_['button_continue']       = 'Continue';
-$_['button_cart']           = 'Add to Cart';
-$_['button_cancel']         = 'Cancel';
-$_['button_compare']        = 'Compare this Product';
-$_['button_wishlist']       = 'Add to Wish List';
-$_['button_checkout']       = 'Checkout';
-$_['button_confirm']        = 'Confirm Order';
-$_['button_coupon']         = 'Apply Coupon';
-$_['button_delete']         = 'Delete';
-$_['button_download']       = 'Download';
-$_['button_edit']           = 'Edit';
-$_['button_filter']         = 'Refine Search';
-$_['button_new_address']    = 'New Address';
-$_['button_change_address'] = 'Change Address';
-$_['button_reviews']        = 'Reviews';
-$_['button_write']          = 'Write Review';
-$_['button_login']          = 'Login';
-$_['button_update']         = 'Update';
-$_['button_remove']         = 'Remove';
-$_['button_reorder']        = 'Reorder';
-$_['button_return']         = 'Return';
-$_['button_shopping']       = 'Continue Shopping';
-$_['button_search']         = 'Search';
-$_['button_shipping']       = 'Apply Shipping';
-$_['button_submit']         = 'Submit';
-$_['button_guest']          = 'Guest Checkout';
-$_['button_view']           = 'View';
-$_['button_voucher']        = 'Apply Gift Certificate';
-$_['button_upload']         = 'Upload File';
-$_['button_reward']         = 'Apply Points';
-$_['button_quote']          = 'Get Quotes';
-$_['button_list']           = 'List';
+$_['button_address_add']    = 'Adres goşuň';
+$_['button_back']           = 'Yza';
+$_['button_continue']       = 'Dowam etmek';
+$_['button_cart']           = 'Sebede goşmak';
+$_['button_cancel']         = 'Ýatyrmak';
+$_['button_compare']        = 'Bu harydy deňeşdirmek';
+$_['button_wishlist']       = 'Isleýänlerňiziň sanawyna goşuň';
+$_['button_checkout']       = 'Buýurmany taýýarlamak';
+$_['button_confirm']        = 'Buýurmany tassyklaň';
+$_['button_coupon']         = 'Kupony giriziň';
+$_['button_delete']         = 'Aýyrmak';
+$_['button_download']       = 'Ýüklemek';
+$_['button_edit']           = 'Düzedişgirizmek';
+$_['button_filter']         = 'Takyk gözleg';
+$_['button_new_address']    = 'Täze adres';
+$_['button_change_address'] = 'Adresi üýtgetmek';
+$_['button_reviews']        = 'Teswirler';
+$_['button_write']          = 'Teswir galdyrmak';
+$_['button_login']          = 'Girmek';
+$_['button_update']         = 'Täzeleme';
+$_['button_remove']         = 'Aýyrmak';
+$_['button_reorder']        = 'Gaýtadan buýurma';
+$_['button_return']         = 'Yza dolan';
+$_['button_shopping']       = 'Söwdany dowam etmek';
+$_['button_search']         = 'Gözleg';
+$_['button_shipping']       = 'Eltip bermäni giriziň';
+$_['button_submit']         = 'Iýbermek';
+$_['button_guest']          = 'Buýurmany myhman üçin taýýarlamak';
+$_['button_view']           = 'Gözden geçirmek';
+$_['button_voucher']        = 'Sowgatlyk şahadatnamany giriziň';
+$_['button_upload']         = 'Faýly ýükläň';
+$_['button_reward']         = 'Ballary giriziň';
+$_['button_quote']          = 'Kwota alyň';
+$_['button_list']           = 'Sanaw';
 $_['button_grid']           = 'Grid';
-$_['button_map']            = 'View Google Map';
+$_['button_map']            = 'Google Karta seretmek';
 
 // Error
-$_['error_exception']       = 'Error Code(%s): %s in %s on line %s';
-$_['error_upload_1']        = 'Warning: The uploaded file exceeds the upload_max_filesize directive in php.ini!';
-$_['error_upload_2']        = 'Warning: The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form!';
-$_['error_upload_3']        = 'Warning: The uploaded file was only partially uploaded!';
-$_['error_upload_4']        = 'Warning: No file was uploaded!';
-$_['error_upload_6']        = 'Warning: Missing a temporary folder!';
-$_['error_upload_7']        = 'Warning: Failed to write file to disk!';
-$_['error_upload_8']        = 'Warning: File upload stopped by extension!';
-$_['error_upload_999']      = 'Warning: No error code available!';
-$_['error_curl']            = 'CURL: Error Code(%s): %s';
+$_['error_exception']       = 'Ýalňyşlyk Kod(%s): %s setirde %s';
+$_['error_upload_1']        = 'Duýduryş: Ýüklenen faýl razmery php.ini faýldäki upload_max_filesize direktiwasyndan uly!';
+$_['error_upload_2']        = 'Duýduryş: Ýüklenen faýl razmery HTML-formasyndaky MAX_FILE_SIZE direktiwasyndan uly!';
+$_['error_upload_3']        = 'Duýduryş: Ýüklenýän faýl doly ýüklenmedi!';
+$_['error_upload_4']        = 'Duýduryş: Hiç hili faýl ýüklenmedi!';
+$_['error_upload_6']        = 'Duýduryş: Wagtlaýyn papka ýok!';
+$_['error_upload_7']        = 'Duýduryş: Faýly diska ýazyp bolmady!';
+$_['error_upload_8']        = 'Duýduryş: Giňelme esasynda faýl ýüklenmesi togtadyldy!';
+$_['error_upload_999']      = 'Duýduryş: Ýalňyşlyk kody ýok!';
+$_['error_curl']            = 'CURL: Ýalňyşlyk kody(%s): %s';
 
 /* When doing translations only include the matching language code */
 

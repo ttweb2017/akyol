@@ -14,4 +14,4 @@ $_['text_account']      = 'Meniň akkauntym';
 $_['text_order']        = 'Buýurmanyň taryhy';
 $_['text_wishlist']     = 'Islenilýanleriň sanawy';
 $_['text_newsletter']   = 'Ýollama';
-$_['text_powered']      = 'Powered By <a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';
+$_['text_powered']      = '<a href="http://www.ttweb.org">TTWEB</a>\'da işläp düzüldi<br /> %s &copy; %s';

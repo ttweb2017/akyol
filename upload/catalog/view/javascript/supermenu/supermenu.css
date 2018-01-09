@@ -406,7 +406,10 @@
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-#supermenu.respsmall.white a.mobile-trigger, #supermenu.alt2.respsmall a.mobile-trigger, #supermenu.imgmenu.respsmall a.mobile-trigger { background: url('mkidb2.png') 100% center no-repeat; color: #555; text-shadow: none; }
+#supermenu.respsmall.white a.mobile-trigger, #supermenu.alt2.respsmall a.mobile-trigger, #supermenu.imgmenu.respsmall a.mobile-trigger { 
+	background: url('mkidb2.png') 100% center no-repeat; 
+	color: #555; text-shadow: none; 
+}
 #supermenu.white ul li a.tll {
 	font-size: 13px;
 	color: #333;

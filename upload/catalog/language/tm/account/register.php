@@ -4,7 +4,7 @@ $_['heading_title']        = 'Akkaunty registrirlemek';
 
 // Text
 $_['text_account']         = 'Akkaunt';
-$_['text_register']        = 'Registrirlemek';
+$_['text_register']        = 'Registrirlenmek';
 $_['text_account_already'] = 'Eger siziň bizde akkaundyňyz bar bolsa, ulgama giriň <a href="%s">giriş sahypa</a>.';
 $_['text_your_details']    = 'Siziň şahsy maglumatlarňyz';
 $_['text_newsletter']      = 'Ýollama';
@@ -18,7 +18,7 @@ $_['entry_lastname']       = 'Familiýa';
 $_['entry_email']          = 'El.poçta';
 $_['entry_telephone']      = 'Telefon';
 $_['entry_newsletter']     = 'Ýazlyşmak';
-$_['entry_password']       = 'Parolarol';
+$_['entry_password']       = 'Parol';
 $_['entry_confirm']        = 'Paroli tassyklamak';
 
 // Error

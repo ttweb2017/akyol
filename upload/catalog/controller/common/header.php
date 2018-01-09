@@ -41,12 +41,23 @@ class ControllerCommonHeader extends Controller {
 		$data['direction'] = $this->language->get('direction');
 
 		$data['name'] = $this->config->get('config_name');
+		
+		//supermenu
+		$this->load->model('tool/image');
+		
+		// custom logo
+		$lg = $this->model_tool_image->resize($this->config->get('config_logo'), 60, 60);
 
 		if (is_file(DIR_IMAGE . $this->config->get('config_logo'))) {
-			$data['logo'] = $server . 'image/' . $this->config->get('config_logo');
+			$data['logo'] = $lg;
 		} else {
 			$data['logo'] = '';
 		}
+		/*if (is_file(DIR_IMAGE . $this->config->get('config_logo'))) {
+			$data['logo'] = $server . 'image/' . $this->config->get('config_logo');
+		} else {
+			$data['logo'] = '';
+		}*/
 
 		$this->load->language('common/header');
 
@@ -94,9 +105,6 @@ class ControllerCommonHeader extends Controller {
 		$this->load->model('catalog/category');
 
 		$this->load->model('catalog/product');
-		
-		//supermenu
-		$this->load->model('tool/image');
 
 		$data['categories'] = array();
 
