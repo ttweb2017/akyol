@@ -23,9 +23,9 @@ define('DIR_CATALOG', '/usr/share/nginx/akyoltm/upload/catalog/');
 
 
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'akyoltm_db_user');
-define('DB_PASSWORD', 'akyoltm_DB_2018');
-define('DB_DATABASE', 'akyoltm_db');
+define('DB_HOSTNAME', '');
+define('DB_USERNAME', '');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', '');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
